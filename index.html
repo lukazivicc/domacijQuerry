@@ -11,8 +11,6 @@
 
 <center><h1>jQuery</h1></center>
 <center><button id="prvo">Pritisni</button></center>
-<br>		
-<center><button id="drugo">Dugme 2</button></center>	
 
 
 </body>
@@ -24,6 +22,8 @@
 $(document).ready(function(){
 	$('#prvo').click(function(){
 		$('h1').css('color','green');
+		$('h1').css('font-size','90ptx');
+		$('h1').after("<h2>PODNASLOV<h2>");
 	});
 });
 
