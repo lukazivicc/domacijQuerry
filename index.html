@@ -23,15 +23,7 @@
 <script>
 $(document).ready(function(){
 	$('#prvo').click(function(){
-		$('h1').css('color','green');
-		$('h1').css('font-size','70px');
-		$('h1').after('<h2>AJAX</h2>');
-		
-	});
-	$('#drugo').click(function(){
-			$.get("lokacija/osma.php", function(data){
-    				$('h2').after('<center>'+data+'</center>');
-  			});
+		$('h1').css('color','green');	
 	});
 });
 
